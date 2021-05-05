@@ -1,13 +1,22 @@
 # DDBOT
+
 DiscordDBOT
-## Installation
-npm install
+
+# Files
+
+StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+
 
 # Configuration
-**CONFIG**
-    token                 | token bota
-    prefix                | prefix komend
-    cleartime             | usuwanie wiadomości bota pod x sekund
-    ModLogChannelID       | kanał do logów bota
-    botstatus             | nazwa statusu botaa
-    botstatustype         | typ statusu bota   WATCHING | PLAYING | LISTENING
+
+## CONFIG
+| name| description|
+|--|--|
+| prefix | prefix komend |
+| cleartime | usuwanie wiadomości bota pod x sekund |
+|ModLogChannelID| kanał do logów bota |
+| botstatus | status bota |
+| botstatustype | typ statusu bota WATCHING | PLAYING | LISTENING |
+
+## INSTALATION
+npm install
