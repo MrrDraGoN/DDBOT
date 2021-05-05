@@ -7,7 +7,7 @@ module.exports = {
     aliases: [""],
     cooldown: 2,
     usage: "role",
-    description: "Show all users in role",
+    description: "Show all users in specified role",
     run: async (client, message, args, user, text, prefix) => {
     try {
 //FUNCTION

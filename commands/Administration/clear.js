@@ -6,8 +6,8 @@ module.exports = {
     category: "Administration",
     aliases: [""],
     cooldown: 2,
-    usage: "clear <TEXT>",
-    description: "Resends your Text",
+    usage: "clear <AMOUNT>",
+    description: "remove last message",
     run: async (client, message, args, user, text, prefix) => {
     try{
 //FUNCTION

@@ -7,7 +7,7 @@ module.exports = {
     aliases: [""],
     cooldown: 2,
     usage: "unban <MENTION> <RESON>",
-    description: "Resends your Text",
+    description: "unban banned user",
     run: async (client, message, args, user, text, prefix) => {
     try{
     //FUNCTION

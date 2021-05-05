@@ -6,7 +6,7 @@ module.exports = {
     category: "Administration",
     aliases: [""],
     cooldown: 2,
-    usage: "say <TEXT>",
+    usage: "say <embed/text> (IF EMBED [BOT/USER])",
     description: "Resends your Text",
     run: async (client, message, args, user, text, prefix) => {
     try{

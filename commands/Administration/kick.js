@@ -8,7 +8,7 @@ module.exports = {
     aliases: [""],
     cooldown: 2,
     usage: "kick <MENTION> <POWÓD>",
-    description: "Resends your Text",
+    description: "Kicks the user out of the server",
     run: async (client, message, args, user, text, prefix) => {
     try {
 //FUNCTION

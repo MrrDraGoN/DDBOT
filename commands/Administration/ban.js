@@ -6,8 +6,8 @@ module.exports = {
     category: "Administration",
     aliases: [""],
     cooldown: 2,
-    usage: "ban <MENTION> <TIME> <RESON>",
-    description: "Resends your Text",
+    usage: "ban <MENTION> <RESON>",
+    description: "User get a permban",
     run: async (client, message, args, user, text, prefix) => {
     try{
 

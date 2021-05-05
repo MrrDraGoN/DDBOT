@@ -8,7 +8,7 @@ module.exports = {
     aliases: [""],
     cooldown: 2,
     usage: "user <USER>",
-    description: "Resends your Text",
+    description: "Shows information, such as ID and join date, about yourself or a user.",
     run: async (client, message, args, user, text, prefix) => {
     try {
 //FUNCTION

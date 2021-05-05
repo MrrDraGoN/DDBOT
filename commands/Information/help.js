@@ -7,7 +7,7 @@ module.exports = {
     aliases: ["h", "commandinfo", "cmds", "cmd"],
     cooldown: 4,
     usage: "help [Command]",
-    description: "Returns all Commmands, or one specific command",
+    description: "Show help menu",
     run: async (client, message, args, user, text, prefix) => {
       try{
         if (args[0]) {

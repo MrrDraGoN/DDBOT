@@ -7,7 +7,7 @@ module.exports = {
     aliases: [""],
     cooldown: 2,
     usage: "avatar",
-    description: "show avatar",
+    description: "Get a user's avatar.",
     run: async (client, message, args, user, text, prefix) => {
     try {
 //FUNCTION
