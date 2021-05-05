@@ -49,7 +49,7 @@ module.exports = {
             const embed = new Discord.MessageEmbed()
             .setColor(ee.color)
             .setAuthor(`${message.author.username}`,message.author.displayAvatarURL({size: 4096, format: "png", dynamic: true}))
-            .setDescription(`${args.slice(0).join(" ")}`)
+            .setDescription(`${args.slice(2).join(" ")}`)
             message.channel.send(embed);  
         }
       }
