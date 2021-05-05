@@ -48,8 +48,9 @@ module.exports = {
         const modlog = new Discord.MessageEmbed()
         .setColor(ee.infocolor)
         .setAuthor(message.author.username, message.author.displayAvatarURL({ format: 'png', dynamic: true }))
-        .setTitle(`komenda: ${module.exports.name} ${args[0]}`)
-        .setDescription(`<@${message.author.id}> użył komendy`)
+        .setTitle(`Komenda: ${module.exports.name}`)
+        .setDescription(`👦 <@${message.author.id}> napisał **${args[0]}** Używając bota | <#${message.channel.id}>`)
+        .addField(`Całe Komenda`, `\`\`\`${config.prefix}${module.exports.name} ${args.slice(0).join(" ")} \`\`\``)
         .setTimestamp('timestamp')
         .setFooter(ee.footertext, ee.footericon)
         modlogchannel.send(modlog);
