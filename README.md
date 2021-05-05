@@ -1,2 +1,5 @@
 # DDBOT
-123
+DiscordDBOT
+## Installation
+npm install
+

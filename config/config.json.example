@@ -1,0 +1,12 @@
+{
+  "token": "", 
+  "prefix": "!",
+  "ModLogChannelID": "",
+  "ErrorLogChannelID": "",
+  "botstatus": "DDBOT help",
+  "botstatustype": "WATCHING",
+  "deletemessagetime": "5",
+  "shortdeletetime": "3",
+  "mediumdeletetime": "5",
+  "longdeletetime": "10"
+}
