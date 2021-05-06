@@ -1,7 +1,10 @@
 config.json
 embed.json
+config.js
+embed.js
 test.js
 test1.js
 test2.js
 test3.js
 todo.js
+clear_command.js

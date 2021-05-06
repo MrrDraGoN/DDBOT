@@ -1,5 +1,5 @@
-//here the event starts
-const config = require("../../config/config.json")
+//here the event startsconst config = require('../../config/config.js');
+const config = require('../../config/config.js');
 module.exports = client => {
   try{
     const stringlength = 69;

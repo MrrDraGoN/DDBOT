@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
-const config = require("../../config/config.json");
-const ee = require("../../config/embed.json");
+const config = require('../../config/config.js');
+const ee = require('../../config/embed.js');
 const moment = require('moment');
 const filterLevels = {
     DISABLED: 'Off',

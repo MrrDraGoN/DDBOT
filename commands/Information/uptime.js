@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
-const config = require("../../config/config.json");
-const ee = require("../../config/embed.json");
+const config = require('../../config/config.js');
+const ee = require('../../config/embed.js');
 const { duration } = require("../../handlers/functions")
 module.exports = {
     name: "uptime",

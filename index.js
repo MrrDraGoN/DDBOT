@@ -2,7 +2,7 @@
 const Discord = require("discord.js"); //this is the official discord.js wrapper for the Discord Api, which we use!
 const colors = require("colors"); //this Package is used, to change the colors of our Console! (optional and doesnt effect performance)
 const fs = require("fs"); //this package is for reading files and getting their inputs
-const config = require("./config/config.json");
+const config = require('./config/config.js');
 
 //Creating the Discord.js Client for This Bot with some default settings ;) and with partials, so you can fetch OLD messages
 const client = new Discord.Client({
@@ -29,6 +29,6 @@ client.cooldowns = new Discord.Collection(); //an collection for cooldown comman
 
 
 
-client.login(require("./config/config.json").token);
+client.login(require("./config/config.js").token);
 
 /** Template by Tomato#6966 | https://github.com/Tomato6966/Discord-Js-Handler-Template */

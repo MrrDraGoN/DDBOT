@@ -2,8 +2,8 @@
   * @INFO
   * Loading all needed File Information Parameters
 */
-const config = require("../../config/config.json"); //loading config file with token and prefix, and settings
-const ee = require("../../config/embed.json"); //Loading all embed settings like color footertext and icon ...
+const config = require('../../config/config.js');//loading config file with token and prefix, and settings
+const ee = require('../../config/embed.js');//Loading all embed settings like color footertext and icon ...
 const Discord = require("discord.js"); //this is the official discord.js wrapper for the Discord Api, which we use!
 const { escapeRegex} = require("../../handlers/functions"); //Loading all needed functions
 //here the event starts
@@ -108,12 +108,11 @@ module.exports = async (client, message) => {
       .setTitle(`❌ Nieznana komenda, spróbuj: **\`${prefix}help\`**`)
     ).then(msg=>msg.delete({timeout: 5000}).catch(e=>console.log("Couldn't Delete --> Ignore".gray)));
   }catch (e){
-    return message.channel.send(
-    new MessageEmbed()
+    const error = new Discord.MessageEmbed()
     .setColor("RED")
     .setTitle(`❌ BŁĄD | Wystąpił Problem`)
     .setDescription(`\`\`\`${e.stack}\`\`\``)
-);
+    return message.channel.send(error);
   }
 
 }
