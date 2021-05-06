@@ -1,11 +1,11 @@
 /* BOT CONFIG */
 var config = {
-	token: 'ODM2NTYyNzM2MDU3NTQ4ODAy.YIfzwg.nqrnRrGSz_JgLb3itQR0t3MIy-Y', // TOKEN Here
-  prefix: '!',
-  ModLogChannelID: '836928635680063488',
-  ErrorLogChannelID: '833042472011300875',
-  botstatus: '!help',
-  botstatustype: 'WATCHING',
+	token: '', // TOKEN Here
+  prefix: '!', //PREFIX
+  ModLogChannelID: '', //LOG CHANNEL
+  ErrorLogChannelID: '', //ERROR LOG CHANNEL
+  botstatus: '!help', //STATUS NAME
+  botstatustype: 'WATCHING', //STATUS TYPE
   deletemessagetime: '5',
   shortdeletetime: '3',
   mediumdeletetime: '5',
