@@ -1,6 +1,6 @@
 /* BOT CONFIG */
 var config = {
-	token: '', // TOKEN Here
+  token: '', // TOKEN Here
   prefix: '!', //PREFIX
   ModLogChannelID: '', //LOG CHANNEL
   ErrorLogChannelID: '', //ERROR LOG CHANNEL
